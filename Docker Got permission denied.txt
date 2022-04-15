@@ -1,0 +1,12 @@
+Docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock
+
+
+
+newgrp docker
+sudo usermod -a -G docker ubuntu
+grep docker /etc/group
+
+
+website :; https://stackoverflow.com/questions/47854463/docker-got-permission-denied-while-trying-to-connect-to-the-docker-daemon-socke
+
+
